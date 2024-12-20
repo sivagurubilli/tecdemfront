@@ -1,0 +1,25 @@
+/* #item-div{
+    scrollbar-width: 0px;
+} */
+/* .backarrow{
+    position: relative !important;
+    top:"50%" !important;
+    left: "20%" !important;
+    z-index: 1;
+}
+ */
+
+.cartWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.couponContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 15px;
+
+}

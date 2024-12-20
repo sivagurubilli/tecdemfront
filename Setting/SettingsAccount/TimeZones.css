@@ -1,0 +1,89 @@
+/* Container for the dropdown */
+.select-container {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* The dropdown select */
+  .select-container select {
+    display: none; /* Hides the default select */
+  }
+  
+  /* Dropdown button */
+  .dropdown-btn {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Dropdown arrow */
+  .dropdown-btn::after {
+    content: '▼';
+    font-size: 10px;
+    color: #666;
+    margin-left: 8px;
+  }
+  
+  /* Dropdown content */
+  .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Search input */
+  .search-input {
+    width: calc(100% - 24px);
+    padding: 8px 10px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  /* Option items */
+  .option {
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .option:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Selected item styling */
+  .option.selected {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  /* Focus styling */
+  .dropdown-btn:focus,
+  .search-input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

@@ -1,0 +1,27 @@
+.saveButtonWrapper {
+    position: fixed;
+    top: 70%;
+    z-index: 3;
+    right: 75px;
+    background: rgb(255 255 255);
+    padding: 10px;
+    border-radius: 10px;
+    width: 16%;
+    transform: translate(50px, 350px);    /* display: none; */
+    /* opacity: 0; */
+    transition: all 0.3s ease-in-out;
+    transform: translate(50px, 100px);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.leftPanel {
+    text-align: left;
+}
+
+.rightPanel {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap:10px;
+}

@@ -1,0 +1,130 @@
+.notificationPopupContainer {
+    position: absolute;
+    width: 475px;
+    background-color: var(--tec-white);
+    left: -200px;
+    /* border-radius: 4px; */
+    top: 25px;
+    display: none;
+
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+
+
+.notificationsHeader {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.notificationsFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notificationsList {
+    padding: 0;
+    margin: 0;
+    max-height: 400px;
+    overflow: overlay;
+}
+
+.notificationsCount {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background: #8a0ee5;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.notificationTitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.notificationMessage {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-left: 4px solid #8a0ee5;
+    margin: 8px 0px;
+
+}
+
+.notificationsList li {
+    transition: all 0.2s ease-in-out;
+
+}
+
+.notificationsList li:hover {
+    background-color: #f3f0ff;
+    transition: all 0.2s ease-in-out;
+}
+
+.notificationTime {
+    color: #696F8C;
+
+
+}
+
+.buttonsWrapper h5 {
+    font-size: 15px;
+    color: #7A5AF8;
+    cursor: pointer;
+}
+
+.buttonsWrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notificationMessage span {
+    cursor: pointer;
+    font-weight: 600px;
+}
+
+.externalLink {
+    font-size: 12px;
+    font-style: italic;
+    color: #8a0ee5;
+}
+
+.unreadNotification {
+    background-color: #f3f0ff;
+}
+
+.unreadNotification p {
+    font-weight: bold;
+}
+
+.markAsReadAction {
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--tec-button);
+    font-style: italic;
+
+}
+
+.inactiveRead {
+    color: #696F8C!important;
+}
+
+.dangerText {
+    font-size: 14px;
+}

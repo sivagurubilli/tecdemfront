@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    gap: 20px;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #f4f5f7; 
+    box-sizing: border-box;
+  }
+  
+
+  .leftContainer {
+    flex: 3; 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+  }
+  
+
+  .rightContainer {
+    flex: 2;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+  }
+  
+  .rightPanelSecond {
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.searchActions{
+    gap: 10px;
+}
+
+.searchContainer {
+    display: flex;
+    margin: 0px 5px;
+    align-items: center;
+    gap: 10px;
+
+}
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  

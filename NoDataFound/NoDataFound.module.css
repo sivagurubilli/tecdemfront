@@ -1,0 +1,17 @@
+.noDataFoundContainer,
+.comingSoonContainer {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.noDataFoundContainer h5 {
+    font-style: italic;
+    color: rgb(252, 73, 73);
+    font-size: 16px;
+}
+
+.comingSoonContainer h5 {
+    font-size: 16px;
+    font-style: italic;
+}

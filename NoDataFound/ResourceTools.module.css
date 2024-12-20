@@ -1,0 +1,96 @@
+.buttonContainer button {
+  font-size: 12px;
+  height: 25px;
+}
+
+.box-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  size: 12px;
+}
+
+.contentContainer p {
+  width: 250px;
+  overflow: hidden;
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+}
+
+.linkWidget {
+  border-radius: 10px;
+  background-color: #e9e9e9;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 5px;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+
+.FileTitle {
+  font-size: 15px;
+  /* margin: 5px 0 0 0; */
+  /* text-align: center;
+    color: black; */
+  /* */
+  /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+  max-width: 100%;
+  /* margin: 0 10px; */
+}
+
+.linksContainer:hover .resourcesList {
+  opacity: 1;
+  height: auto;
+}
+
+.resourceContainer:hover .editLink {
+  display: inline;
+}
+
+.editLink {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+}
+
+.textLink {
+  width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.resourcesList {
+  position: absolute;
+  background: #fff;
+  width: 178px;
+  left: 7px;
+  top: 44px;
+  max-height: 143px;
+  overflow: overlay;
+  z-index: 2;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+img {
+  display: block;
+  /* margin: 0 10px; */
+  /* Space between image and surrounding elements */
+}
+
+/* button {
+    margin-right: 10px;
+    /* Space between buttons */

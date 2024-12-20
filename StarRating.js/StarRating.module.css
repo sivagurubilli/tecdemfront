@@ -1,0 +1,27 @@
+/* src/StarRating.css */
+.stars {
+  font-size: 24px;
+  position: relative;
+  display: inline-block;
+  color: #ccc;
+  /* Grey color for empty stars */
+}
+
+.starsOuter {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.starsInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--tec-star-color);
+  /* Gold color for filled stars */
+}

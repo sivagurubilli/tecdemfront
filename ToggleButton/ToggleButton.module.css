@@ -1,0 +1,44 @@
+.toggleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    cursor: pointer;
+    gap:5px;
+}
+
+.toggleSwitch {
+    width: 42px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.toggleSwitch.on {
+    background-color: #6534e4;
+}
+
+.toggleSwitch.off {
+    background-color: #ccc;
+}
+
+.toggleHandle {
+    width: 24px;
+    height: 23px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: transform 0.3s;
+}
+
+.toggleSwitch.on .toggleHandle {
+    transform: translateX(15px);
+}
+
+.toggleSwitch.off .toggleHandle {
+    transform: translateX(0);
+}

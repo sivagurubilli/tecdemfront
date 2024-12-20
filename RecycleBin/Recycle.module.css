@@ -1,0 +1,64 @@
+.modalContainer {}
+
+.drawerContainer {
+    /* max-width: 100% !important; */
+    width: 440px !important;
+}
+
+
+.linkWidget {
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 5px;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.contentContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contentContainer i {
+    color: #6534e4
+}
+
+.buttonContainer button {
+    font-size: 12px;
+    height: 25px;
+
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sectionContainer {
+    margin-bottom: 5px;
+}
+
+.sectionContainer h6 {
+    margin-bottom: 10px!important;
+}
+
+.contentContainer p {
+    width: 220px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+}
+
+.noteLabel {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}

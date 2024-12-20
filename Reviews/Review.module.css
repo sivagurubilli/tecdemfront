@@ -1,0 +1,199 @@
+.profileImage img {
+    width: 25px;
+    border-radius: 50%;
+
+}
+
+.profileImage {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.actionContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.actionContainer i {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.reviewStars {
+    display: flex;
+}
+
+.reviewContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.reviewDetails p {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-wrap: pretty;
+    overflow: hidden;
+}
+
+.reviewDetails {
+    width: 100%;
+    /* border-bottom: 0.5px solid #cfcfcf; */
+}
+
+.editWrapper {
+    margin: 10px 0;
+}
+
+.buttonWrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px 0;
+}
+
+
+.addReview i,
+.reviewStars i {
+    color: #6534e4
+}
+
+.giveRatings {
+    /* width: 930px; */
+    /* display: flex; */
+    margin-top: 10px;
+    /* justify-content: center; */
+}
+
+.giveRatings i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.inputContainer {
+    /* display: flex; */
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.inputContainer button {
+    margin-top: 10px;
+}
+
+.reviewedList {
+    overflow: overlay;
+    max-height: 300px;
+    padding: 4px;
+    border: 1px solid #d1d0d0;
+    border-radius: 5px;
+    /* width: 930px; */
+}
+
+
+.leftContainerDiv {
+    max-width: 100%;
+    width: 58%;
+}
+
+.widthFull {
+    width: 100%;
+}
+
+.reviewStarsComment {
+    margin-left: 35px;
+    margin-top: 2px;
+}
+
+.reviewStarsComment p {
+    margin-bottom: 5px;
+}
+
+.filterContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+
+}
+
+.selectInput {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+}
+
+.reportText {
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #6534e4;
+}
+
+.actionContainer:hover .actionList {
+    display: flex;
+}
+
+.actionContainer {
+    position: relative;
+}
+
+.actionList {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    font-size: 12px;
+    right: 0px;
+    background: #ffffff;
+    padding: 5px;
+    top: 8px;
+    width: 59px;
+    z-index: 2;
+    border-radius: 2px;
+}
+
+.actionList span {
+    cursor: pointer;
+    padding: 4px;
+}
+
+.actionList span:hover {
+    background-color: #f5f5f5;
+}
+
+.stars {
+    display: inline-block;
+    font-size: 24px;
+    color: gold;
+    position: relative;
+}
+
+.stars::before {
+    content: '★★★★★';
+    opacity: 0.3;
+}
+
+.stars::after {
+    content: '★★★★★';
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 1;
+    width: 0;
+}
+
+.commentDescription {
+    border-bottom: 0.5px solid rgb(211, 211, 211);
+}

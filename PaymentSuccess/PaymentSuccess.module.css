@@ -1,0 +1,28 @@
+.Container {
+  text-align: center;
+  padding-top: 150px;
+  display: grid;
+  place-items: center;
+}
+
+.Icon {
+  font-size: 150px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--bo-button);
+  color: var(--bo-light);
+}
+
+.Thank {
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.Para {
+  font-size: var(--bo-heading-h2-1);
+}

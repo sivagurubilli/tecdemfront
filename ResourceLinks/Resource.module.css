@@ -1,0 +1,61 @@
+.parentLinkImage {}
+
+.childImage {}
+
+.resourceContainer {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.resourceContainer:hover {
+    background-color: #d9d9d9;
+    transition: all 0.2s ease-in-out;
+    /* color: rgb(153, 153, 255); */
+}
+
+.resourceContainer:hover p {
+    color: rgb(153, 153, 255);
+
+}
+
+.resourcesList {
+    position: absolute;
+    background: #fff;
+    width: 178px;
+    left: 7px;
+    top: 44px;
+    max-height: 143px;
+    overflow: overlay;
+    z-index: 2;
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.linksContainer:hover .resourcesList {
+    opacity: 1;
+    height: auto;
+
+}
+
+.resourceContainer:hover .editLink {
+    display: inline;
+}
+
+.editLink {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+}
+
+.textLink {
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

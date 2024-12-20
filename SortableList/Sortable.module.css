@@ -1,0 +1,125 @@
+.parentSubSectionList {
+    margin: 5px 0;
+    padding: 8px;
+    transition: all 0.3s ease-in-out;
+    /* border-radius: 5px; */
+    border-bottom: 1px solid #929292;
+}
+
+.parentSubSectionList:hover {
+    background: rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.activeCourseSection {
+    background: rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.parentSubSectionListActive {
+    /* height: 100px; */
+    border-radius: 5px;
+}
+
+.parentSubSectionListInactive {
+    height: 44px;
+    transition: height 0.5s;
+}
+
+.labelOfVideo {}
+
+.labelOfVideo input {
+    cursor: pointer;
+}
+
+.labelOfVideo .videoTitle {
+    cursor: pointer;
+    font-weight: 500;
+    text-align: left;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.resourcesBox {
+    height: 0;
+    transition: height 0.5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.resourcesBoxActive {
+    opacity: 1;
+    height: 100%;
+    visibility: visible;
+    transition: opacity 0.7s ease-in-out;
+}
+
+
+.listOfLinks {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 50%;
+    /* padding-left: 28px; */
+    padding-top: 8px;
+}
+
+
+.externalResourceListContainer {
+    position: absolute;
+    left: -176px;
+    width: 215px;
+    top: 43px;
+    background: #fff;
+    z-index: 0;
+    max-height: 143px;
+    overflow: overlay;
+    border-radius: 5px;
+    height: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.downloadContainer:hover .externalResourceListContainer {
+    opacity: 1;
+    height: auto;
+    z-index: 2;
+}
+
+.externalList {
+    border: 1px solid #333;
+    overflow: overlay;
+    max-height: 300px;
+}
+
+.externalListLinks {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.externalFilesText {
+    width: 150px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.dragIcon {
+    cursor: grab;
+}
+
+.videoLength {
+    font-size: 12px;
+    font-style: italic;
+}
