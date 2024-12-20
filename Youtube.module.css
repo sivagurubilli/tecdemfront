@@ -1,0 +1,172 @@
+.carouselContainer {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    /* Light background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.motionContainer {
+    width: 100%;
+     
+    position: absolute;
+    left: 0;
+}
+
+.motionCard {
+    border: 1px solid #353535; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    width: 250px; 
+    height: 200px; 
+  }
+
+  .motionCard img {
+    width: 100%;
+    height: 80%; 
+    border-radius: 8px;
+    object-fit: cover; 
+  }
+  
+
+  
+  .motionCard p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+    line-clamp: 2;
+    -webkit-line-clamp: 2; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 15px; 
+  }
+
+
+  @media (max-width:1366px) {
+    
+.motionCard {
+    border: 1px solid #353535; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    width: 190px; 
+    height: 140px; 
+  }
+
+  .motionCard img {
+    width: 180px;
+    height: 80%; 
+    border-radius: 8px;
+    object-fit: cover; 
+  }
+  
+
+  
+  .motionCard p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+    line-clamp: 2;
+    -webkit-line-clamp: 2; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    font-size: 12px;
+    font-weight: 600;
+    color: #1c1919;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 15px; 
+  }
+  }
+  
+
+
+.PaginationContainer {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    bottom: 10px;
+}
+
+.IBotPaginationButton {
+    margin: 0 auto;
+    margin-right: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.youTubeSearchContainer {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.youTubeSearchContainer input {
+    width: 86%;
+
+}
+
+.tooltipContainer {
+    margin-top: -11px;
+    overflow: hidden;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.youtubeCarouselWrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+/* .cardStyle {
+    width: 10rem;
+    height: 12rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+   */

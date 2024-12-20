@@ -1,0 +1,67 @@
+/* Dashboard.css */
+
+/* Adjust styles for small devices (e.g., phones) */
+@media screen and (max-width: 575px) {
+    .container-fluid {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .mb-4 {
+      margin-bottom: 10px !important; /* Adjust margin for cards */
+    }
+  
+    .card {
+      width: 100%; /* Make cards full width */
+    }
+  
+    .nav-tabs {
+      flex-wrap: wrap; /* Allow tabs to wrap on small screens */
+    }
+  
+    .nav-item {
+      width: 50%; /* Make each tab take up half the width */
+    }
+  }
+
+  .DashboardMainContainer{
+    background-color: #F7F7F7;
+  }
+ 
+
+  /* styles.css */
+
+.layout-overlay {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  margin-top: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}

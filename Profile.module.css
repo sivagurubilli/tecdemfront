@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.profileMainContainer h6 {
+  font-size: 16px;
+}
+
+.profileMainContainer {
+  border-radius: 5px;
+  /* border: 1px solid #949494; */
+}
+
+.profileMainContainer button {
+  background-color: #6c31ee;
+  color: #ffffff;
+  width: 189px;
+}
+
+.profileMainContainer img {
+  width: 111px;
+  border-radius: 50%;
+  background-color: #d3c1fb;
+  height: 110px;
+}

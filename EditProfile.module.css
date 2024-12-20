@@ -1,0 +1,100 @@
+.profilePictureWrapper {
+    position: relative;
+}
+
+.profileDetailsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editProfileIcon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    background-color: rgba(132, 194, 248, 0.712);
+    /* opacity: 0.3; */
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.editProfileIcon i {
+    font-size: large;
+}
+
+.profilePictureWrapper:hover .editProfileIcon {
+    display: flex;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.socialIconWrapper img {
+    cursor: pointer;
+
+}
+
+.socialActionWrapper {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    gap: 8px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* left :0; */
+    transition: all 0.3s ease-in-out;
+    background-color: #33333348;
+    border-radius: 10px;
+
+
+
+}
+
+.socialActionWrapper i {
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.socialLinkWrapper {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ADADAD;
+    margin-left: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: ;
+}
+
+.socialLinkWrapper:hover .socialActionWrapper {
+    display: flex;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.socialLinkWrapper i {
+    cursor: pointer;
+}
+
+button.actionButtons {
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.profileImage:hover button.actionButtons {
+    display: block;
+    transition: all 0.3s ease-in-out;
+
+}

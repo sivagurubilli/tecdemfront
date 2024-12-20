@@ -1,0 +1,47 @@
+/* styles.css */
+
+.layout-overlay {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .my-2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .bannerWrapperDashboard {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dashboardContentWrapper{
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  
+  @media (max-width: 1200px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    .container {
+      flex-direction: row;
+    }
+  }
+  

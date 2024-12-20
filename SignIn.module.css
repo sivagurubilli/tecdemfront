@@ -1,0 +1,11 @@
+.logoContainer {
+    width: 300px;
+}
+
+
+
+@media (max-width: 768px) {
+    .logoContainer {
+        width: 150px;
+    }
+}
