@@ -1,0 +1,9 @@
+.textarea:focus{
+    outline: 0 !important;  
+}
+
+
+
+.saveNoteButton {
+    margin-left: auto;
+}

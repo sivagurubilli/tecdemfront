@@ -1,0 +1,25 @@
+.itemDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    justify-content: space-between;
+}
+.buttonDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -50%;
+}
+.preBtn, .nextBtn {
+   color: white;
+   width: auto !important;
+   background: rgba(0, 0, 0, 0.3);
+   padding: 3px;
+   margin: 9px;
+}
+.preBtn:hover, .nextBtn:hover {
+    background: rgba(0, 0, 0, 0.4);
+}

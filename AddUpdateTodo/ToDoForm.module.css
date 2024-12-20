@@ -1,0 +1,157 @@
+
+
+.drawerContainer {
+    /* max-width: 100% !important; */
+    width: 500px !important;
+}
+
+
+.linkWidget {
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    margin-top: 6px;
+    /* flex-direction: column; */
+    gap: 5px;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 3px;
+    margin-top: 8px;
+}
+
+.strikeIfChecked {
+    text-decoration: line-through;
+}
+
+
+.contentContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contentContainer i {
+    color: #6534e4
+}
+
+.buttonContainer button {
+    font-size: 12px;
+    height: 25px;
+
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sectionContainer {
+    margin-bottom: 5px;
+}
+
+.sectionContainer h6 {
+    margin-bottom: 10px !important;
+}
+
+.contentContainer p {
+    width: 300px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+}
+
+.noteLabel {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.contentContainer p {
+    font-size: var(--tec-font-size-regular-1);
+}
+
+.linkWidget {
+    border-radius: 10px;
+    background-color: #e9e9e9;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    gap: 10px;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns content to the top */
+    padding: 10px;
+    margin: 8px 0;
+    width: 100%;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-wrap: wrap; /* Ensure text wraps */
+    align-items: flex-start; /* Allow multiline content to align */
+    gap: 10px;
+    flex: 1; /* Occupy remaining space */
+    width: 100%;
+  }
+  
+  .contentContainer p {
+    margin: 0;
+    word-wrap: break-word; /* Break long words */
+    overflow-wrap: break-word;
+    white-space: pre-wrap; /* Preserve line breaks and wrap text */
+    flex: 1;
+  }
+  
+  .contentContainer input {
+    flex-shrink: 0; /* Prevent checkbox from shrinking */
+  }
+  
+  .strikeIfChecked {
+    text-decoration: line-through;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0; /* Prevent shrinking */
+  }
+  
+  .buttonContainer button {
+    font-size: 12px;
+    height: 30px; /* Consistent height */
+  }
+  
+  @media (max-width: 768px) {
+    .linkWidget {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align text and buttons */
+    }
+  
+    .buttonContainer {
+      justify-content: flex-end;
+      width: 100%; /* Buttons span full width */
+    }
+  
+    .contentContainer p {
+      font-size: 14px; /* Slightly smaller text on mobile */
+    }
+  }
+  
+  @media (max-width: 440px) {
+    .linkWidget {
+      margin-bottom: 10px;
+    }
+  
+    .contentContainer p {
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+  
+    .buttonContainer {
+      width: 100%;
+    }
+  }
+  
+  

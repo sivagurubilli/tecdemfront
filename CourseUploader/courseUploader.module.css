@@ -1,0 +1,384 @@
+.formMenuList {
+  cursor: pointer;
+}
+
+.mainContainer {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.mainContainer form {
+  padding: 0px;
+}
+
+.activeForm {
+  color: #6e30ec;
+}
+
+.addProfileHeader {
+  text-align: left;
+}
+
+.addProfileHeader p,
+.addProfileHeader h4 {
+  text-align: left;
+}
+
+.addProfileHeader h4 {
+  font-size: 32px;
+  color: #6c31ee;
+}
+
+.addProfileHeader p {
+  margin-top: 10px;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.AlignLeft {
+  text-align: left;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  margin-bottom: 10px;
+  /* display: flex; */
+}
+
+.flex {
+  display: flex;
+}
+
+.headings {
+  width: "40%";
+}
+
+.addProfileExpBody {
+  border-radius: 5px;
+  text-align: left;
+}
+
+.addProfileBody {
+  /* border: 1px solid #949494; */
+  /* margin-top: 20px; */
+  border-radius: 5px;
+  text-align: left;
+  /* padding-bottom: 20px; */
+}
+
+.addProfileBody input,
+.addProfileBody textarea,
+.addProfileBody select {
+  background-color: #f3f4f6;
+}
+
+.addProfileBody {
+  margin-bottom: 10px;
+}
+
+.addProfileBody p {
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+
+.uploadCertificateArea {
+  /* border: 1px solid #949494; */
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.uploadDivs {
+  border: 1px dashed #8a8a8a;
+  width: 168px;
+  height: 168px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #8a8a8a;
+  position: relative;
+  overflow: hidden;
+}
+
+.uploadDiv {
+  border: 1px dashed #8a8a8a;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #8a8a8a;
+  position: relative;
+  overflow: hidden;
+}
+
+.uploadthumbnail {
+  border: 1px dashed #8a8a8a;
+  /* width: 300px; */
+  /* height: 160px; */
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #8a8a8a;
+  position: relative;
+  overflow: hidden;
+}
+
+.rightSectionActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.lectureHeadings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+.lectureContent {
+  margin-top: 10px;
+  background-color: #cdcdcd17;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.rightSectionActions i {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.uploadCertificateArea h6,
+.addProfileBody h6 {
+  font-size: 18px;
+}
+
+.hiddenSections {
+  display: none;
+}
+
+.visibleSubsection {
+  display: block;
+}
+
+.sectionDivider {
+  margin: 5px 0px;
+}
+
+.grapIcons {
+  cursor: grab;
+}
+
+.sectionTitleContainer:hover {
+  background-color: #6d31ee52;
+  transition: all 0.3s ease-in-out;
+}
+
+.sectionTitleContainer {
+  transition: all 0.3s ease-in-out;
+}
+
+.inputCertificates {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+
+.uploadCertificateList {
+  position: relative;
+  padding: 10px 0px;
+}
+
+.rolesDiv {
+  border: 1px solid #949494;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.parentRolesDiv {
+  /* display: flex; */
+  /* justify-content: flex-start; */
+}
+
+.parentRolesDiv h6 {
+  font-size: 22px;
+  /* text-align: center; */
+}
+
+.dropDownCaption {
+  font-size: small;
+}
+
+h6.selectChannelTitle {
+  font-size: 18px;
+}
+
+.rightDivFooter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: flex-end;
+  color: #17adfe;
+  cursor: pointer;
+}
+
+.rolesDiv {
+  width: 70%;
+  margin: auto;
+}
+
+.errorField {
+  font-size: 12px;
+  font-style: italic;
+  position: absolute;
+  font-weight: 100;
+  color: rgb(248, 52, 52);
+}
+
+.crossButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 4px;
+  display: none;
+  font-size: 18px;
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+}
+
+.uploadDivs:hover .crossButton {
+  display: block;
+  transition: all 0.4s ease-in-out;
+}
+
+.uploadthumbnail:hover .crossButton {
+  display: block;
+  transition: all 0.4s ease-in-out;
+}
+
+.customplaceholder::placeholder {
+  color: red;
+}
+
+.fieldContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.fieldContainer .leftField,
+.fieldContainer .rightField {
+  width: 50%;
+}
+
+.fieldWrapper {
+  position: relative;
+}
+
+.fieldContainer,
+.fullContainer {
+  margin-bottom: 20px;
+}
+
+.formDescription {
+  width: 100%;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  width: 10px !important;
+  z-index: 23;
+  cursor: pointer;
+}
+
+.offerField {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.activeUploadButton {
+  background-color: #c9b0ff;
+}
+
+.courseIncludeContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.leftPanelCourseUpload {
+  flex: 0 0 23%;
+  display: none;
+}
+
+.rightPanelCourseUpload {
+  flex: 0 0 100%;
+  position: relative;
+}
+
+.offerRequirementContainer {
+  display: flex;
+  gap: 10px;
+  /* flex-wrap: wrap; */
+  width: 100%;
+}
+
+.fullFlex {
+  flex: 0 0 50%;
+}
+
+.loadingForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffffe0;
+  z-index: 30;
+}
+
+.filePreviewer {
+  width: 100% !important;
+  height: 272px;
+}
+
+.assetContainer {
+  position: relative;
+}
+
+.assetContainer:hover .crossButton {
+  display: block;
+}
+
+
+.thumbContainer {
+  width: 100%;
+}
+
+.marginAutoLeft {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

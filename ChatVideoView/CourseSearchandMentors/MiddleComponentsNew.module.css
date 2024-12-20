@@ -1,0 +1,106 @@
+.rightPanelSecond {
+    gap: 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.searchActions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1 1 45%;
+    min-width: 200px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.menuButton {
+    width: clamp(100px, 20vw, 200px);
+
+    font-size: clamp(12px, 1.2vw, 15px);
+}
+
+.historyList {
+    width: clamp(200px, 25vw, 270px);
+}
+
+.flexComponent{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.rightPanelThird{
+    
+    min-height: 350px;
+    height: 100%;
+}
+
+
+@media (max-width: 1024px) {
+    .searchActions {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .menuButton {
+        width: 100%;
+    }
+}
+
+@media (min-width: 2250px) {
+    .searchActions {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .menuButton {
+        width: 100%;
+    }
+}
+
+@media (min-width: 2150px) {
+    .searchActions {
+        width: 100%;     
+    }
+
+    .menuButton {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1640px) {
+    .searchActions {
+      
+        width: 100%;
+        flex: 1 1 100%;
+    }
+
+    .menuButton {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .menuButton {
+        width: clamp(80px, 20vw, 180px);
+    }
+
+    .historyList {
+        width: clamp(160px, 25vw, 220px);
+    }
+}
+
+@media (max-width: 480px) {
+    .menuButton {
+        width: 100%;
+        font-size: clamp(10px, 2vw, 14px);
+    }
+
+    .searchActions {
+        gap: 2px;
+    }
+}

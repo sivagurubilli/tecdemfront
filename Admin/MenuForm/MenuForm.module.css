@@ -1,0 +1,20 @@
+.drawerContainer form {
+    margin :0;
+    padding : 0;
+    text-align: left;
+}
+
+.drawerContainer {
+    width: 600px!important;
+}
+
+.formGroup {
+    text-align: left;
+}
+
+.error {
+    font-size: 12px;
+    font-style: italic;
+    text-align: left;
+    color : var(--tec-error)
+}

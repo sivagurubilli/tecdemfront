@@ -1,0 +1,169 @@
+.buyButton p {
+    font-size: 13px;
+}
+
+.Container {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileContainer p {
+    font-size: 13px;
+}
+
+.profileContainer img {
+    width: 25px;
+    border-radius: 50%;
+
+}
+
+.cardContainer {
+    padding: 5px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    /* height: 18vh; */
+}
+
+.thumbImageCard {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.courseTitle {
+    color: var(--tec-black);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px !important;
+    line-height: 24px;
+    font-weight: var(--tec-font-bold);
+}
+
+/*   fontSize: "10px",
+                    marginRight: "30px",
+                    color: "black",
+                    fontWeight: "400", */
+
+/*  fontSize: "10px",
+                  width: "150px",
+                  backgroundColor: "#6d31ed",
+                  color: "white", */
+
+
+.textSelectedStop {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.buttonAction {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.priceContainer {
+    text-align: right;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actualPriceText {
+    font-size: var(--tec-font-size-regular-1);
+    font-style: italic;
+
+}
+
+.lineThrough {
+    text-decoration: line-through;
+
+}
+
+.greyText {
+    color: var(--tec-grey)
+}
+
+.reviewBlock {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.reviewBlock span {
+    font-weight: 500;
+}
+
+.cardVideoProgress {
+    width: 100%;
+    height: 4px;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+}
+
+.buttonBlock {
+    /* display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-end; */
+    width: 100%;
+
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    -webkit-appearance: none;
+    /* Remove default styling */
+    appearance: none;
+    /* Remove default styling */
+}
+
+progress::-webkit-progress-bar {
+    background-color: var(--tec-progress-grey);
+    /* Background color of the progress bar */
+    border-radius: 10px;
+    /* Optional: to round the corners */
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--tec-primary);
+    /* Color of the progress indicator */
+    border-radius: 10px 0 0 10px;
+    /* Optional: to round the corners */
+}
+
+progress::-moz-progress-bar {
+    background-color: var(--tec-primary);
+    /* Color of the progress indicator */
+    border-radius: 10px;
+    /* Optional: to round the corners */
+}
+.progressContainer {
+    text-align: right;
+}
+.progressContainer span {
+    font-size: 12px;
+}
+
+.certificateButton {
+    width: 100%;
+}

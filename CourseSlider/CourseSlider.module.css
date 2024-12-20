@@ -1,0 +1,74 @@
+.courseSlider {
+    position: relative;
+    padding-left: 50px;
+    width: 98%;
+    height: 370px;
+    margin-top: -30px;
+    padding-top: 0px;
+    margin-bottom: 60px;
+}
+
+.prevButton, .nextButton {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #292724;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prevButton {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid #8a0fe5 !important;
+    border-radius: 50% !important;
+    background-color: #fff;
+    color: #8a0fe5;
+    left: -20px;
+    top: 230px;
+    
+}
+.prevButton:hover {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid #8a0fe5;
+    border-radius: 50% !important;
+    background-color: #fff;
+    color: #8a0fe5;
+    left: -20px;
+    top: 230px;
+    box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 30%) !important;
+  -webkit-box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 30%) !important;
+  -moz-box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 30%) !important;
+    
+}
+
+.nextButton {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid #8a0fe5 !important;
+    border-radius: 50% !important;
+    background-color: #fff;
+    color: #8a0fe5;
+    right: -97%;
+    top: -200px;
+}
+.nextButton:hover {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid #8a0fe5 !important;
+    border-radius: 50% !important;
+    background-color: #fff;
+    color: #8a0fe5;
+    right: -97%;
+    top: -200px;
+    box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 30%) !important;
+  -webkit-box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 30%) !important;
+  -moz-box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 30%) !important;
+    
+}

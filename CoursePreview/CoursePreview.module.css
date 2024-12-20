@@ -1,0 +1,44 @@
+.Container {
+  padding: 0px 20px;
+}
+
+.BreadcrumbLink a {
+  color: #7e1edc;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.breadCrumbContainer ol {
+  margin: 0;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.relatedVideosParent {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.list li{
+  list-style: disc !important;
+}
+
+.wishLIstIcon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  background-color: #fff ;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.ReviewContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}

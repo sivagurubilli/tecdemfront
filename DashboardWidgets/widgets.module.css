@@ -1,0 +1,560 @@
+.sliderWrapper {
+    width: 98%;
+    /* margin-left: 37px; */
+    /* background-color: var(--tec-white); */
+}
+
+.wishlistHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wishlistHeader p {
+    font-size: var(--tec-font-size-28);
+    font-weight: var(--tec-font-bold);
+}
+
+.courseContainer {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+.profileHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    flex: 0 0 25%;
+}
+
+.profileWrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+
+
+
+.profileHeaderLeft p {
+    font-family: 'Acme', sans-serif;
+}
+
+.profileHeaderLeft span {
+    text-transform: uppercase;
+    color: var(--tec-button)
+}
+
+.profileStarsImages {
+    position: absolute;
+    top: 68px;
+    left: 133px;
+}
+
+.profileHeader img {
+    width: 70px;
+
+    border-radius: 50%;
+}
+
+.profileHeader p {
+    font-size: var(--tec-font-size-large-1);
+    font-weight: var(--tec-font-smibold);
+}
+
+.widgetWrapper {
+
+    align-items: center;
+}
+
+.CoursewidgetWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.countTitle h2 {
+    font-size: var(--tec-font-size-76);
+    text-align: left;
+}
+
+.countTitle p {
+    color: var(--tec-button);
+    font-weight: var(--tec-font-smibold);
+}
+
+.countTitle {
+    align-items: center;
+}
+.courseCompletedCountTitle h2 {
+    font-size: var(--tec-font-size-76);
+    text-align: left;
+}
+
+.courseCompletedCountTitle p {
+    color: var(--tec-button);
+    font-weight: var(--tec-font-smibold);
+}
+
+.courseCompletedCountTitle {
+    align-items: center;
+}
+
+
+.courseInfo p{
+    font-size: 1rem;
+}
+
+.whatNewList ul {
+    margin: 0;
+    padding: 0;
+}
+
+.noShadow {
+    box-shadow: none !important;
+}
+
+.offerList li {
+    font-size: var(--tec-font-size-medium-2);
+    color: var(--tec-button);
+    cursor: pointer;
+
+}
+
+.offerList li:hover {
+    text-decoration: underline;
+}
+
+
+.whatNewList {
+    overflow: hidden;
+}
+
+.todoList ul {
+    padding: 0;
+    margin: 0;
+}
+
+.strikeIfChecked {
+    text-decoration: line-through;
+  }
+
+
+.todoText {
+    flex: 1; 
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+  }
+
+.todoListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--tec-font-size-regular-2);
+    cursor: pointer;
+    background-color: #EFEBFE;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: var(--tec-border-radius);
+    flex-wrap: wrap;
+  }
+.todoList ul {
+    height: 115px;
+    overflow: overlay;
+}
+
+.offerWidgetContainer {
+    width: 100%;
+    height: 110px;
+    padding: 0px 20px;
+    background-color: var(--tec-yellow);
+
+}
+
+.offerWidgetWrapper {
+    padding: 22px 50px;
+    text-decoration: none;
+    color: inherit;
+}
+
+  
+  .offerWidgetWrapper:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.offerWidgetWrapper h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+}
+
+.daysOffer {
+    font-family: 'Acme', sans-serif;
+}
+
+.offerWidgetWrapper p {
+    margin-top: 8px !important;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.completedWidget {
+    background: url('../../img/completed_frame.png') no-repeat center center;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.progerssWidget {
+    background: url('../../img/in_progress_frame.png') no-repeat center center;
+    background-size: 100% 100%;
+
+}
+
+.todoListTitle {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.todActions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.listLeftSide {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1; 
+    min-width: 0; 
+  }
+
+  .rightPanelTimings {
+    font-size: 12px;
+    white-space: nowrap; 
+  }
+
+.bannerWrapper {
+    /* background: url('../../img/dashboard_image_banner.svg') no-repeat center center; */
+    /* height: 458px; */
+    background-size: cover;
+    width: 98%;
+    margin: 0 auto;
+    background-color: #EFEBFE;
+}
+
+.bannerWrapper img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.bannerElementWrapper {
+    width: 550px;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 166px;
+    left: 212px;
+    gap: 10px;
+}
+
+.botButton {
+    background-color: #2F67F8 !important;
+}
+
+.bannerElementWrapper h3 {
+    font-family: 'Acme', sans-serif;
+    font-size: 32px;
+}
+
+.bannerElementWrapper p {
+    font-size: 24px;
+
+}
+
+.completedWidget strong,
+.progerssWidget strong {
+    font-size: 20px;
+}
+
+
+.bannerWrapper {
+    position: relative;
+    width: 100%;
+    height: 470px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carouselSlide {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: none;
+    /* Hide all slides initially */
+}
+
+.carouselSlide.active {
+    display: block;
+    /* Show the active slide */
+}
+
+
+
+/* .bannerElementWrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+} */
+
+.carouselDots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+
+
+.bannerItems img {
+    width: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.iconWrapper {
+    gap: 10px;
+}
+
+.certificateIcon {
+    padding: 15px;
+    background: white;
+    border-radius: 50%;
+    color: #8a0ee5;
+    font-size: 31px;
+    cursor: pointer;
+}
+
+.roles {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.progressContainer {
+    width: 98%;
+    margin: 20px auto;
+}
+
+.progressWidgetContainer {
+    width: 50%;
+    flex-direction: row;
+    gap: 20px;
+    display: flex;
+}
+
+.courseCompleteContainer {
+    width: 50%;
+}
+
+.courseProgressContainer {
+    width: 50%;
+}
+
+@media (max-width:768px) {
+    .progressWidgetContainer {
+        width: 100%;
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .courseCompleteContainer {
+        height: 100%;
+
+    }
+
+    .courseProgressContainer {
+        height: 100%;
+
+    }
+
+    .courseCompleteCard {
+        height: 200px;
+        border-radius: 22px;
+        overflow: hidden;
+    }
+
+    .CoursewidgetWrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .completeIcon {
+        display: none;
+    }
+
+    .certificateIcon {
+        padding: 10px;
+        font-size: px;
+    }
+
+    .iconWrapper svg{
+        width: 50px;
+    }
+
+    .courseCompletedCountTitle h2 {
+        font-size: var( --tec-heading-h1-5);
+        text-align: left;
+    } 
+    .courseCompletedCountTitle {
+        align-items: center;
+    }
+    
+    .titleWrapper{
+        width: 100%;
+    }
+    .titleWrapper strong{
+       font-size: 20px;
+    }
+
+    .profileWrapper {
+        flex-direction: column;
+    }
+
+    .offerWidgetWrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .offerWidgetWrapper h3 {
+        font-family: 'Acme', sans-serif;
+        font-size: 25px;
+    }
+
+    .offerWidgetWrapper p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .profileHeader {
+        width: 100%;
+        align-items: flex-start;
+
+    }
+
+    .todoListItem {
+        flex-direction: column; 
+        align-items: flex-start;
+        gap: 15px;
+      }
+    
+      .listLeftSide {
+        flex-direction: row; 
+        gap: 10px;
+        width: 100%; 
+      }
+    
+      .todoText {
+        white-space: normal; 
+        overflow: visible; 
+      }
+    
+      .rightPanelTimings {
+        font-size: 10px; 
+        align-self: flex-end; 
+      }
+}
+
+@media (max-width:440px) {
+    .bannerItems img {
+        width: 100%;
+       
+        margin-left: 0px;
+        cursor: pointer;
+    }
+
+    .offerWidgetContainer {
+        padding: 0px 0px;
+    }
+
+    .profileStarsImages {
+       width: 60%;
+       overflow: hidden;
+    }
+
+    .todoListItem {
+        padding: 8px;
+      }
+    
+      .todoText {
+        font-size: 14px; 
+      }
+    
+      .rightPanelTimings {
+        font-size: 9px;
+      }
+      .courseInfo p{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width:395px) {
+    .titleWrapper strong{
+        font-size: 1.1rem;
+     }
+
+     .courseInfo p{
+        font-size: 0.9rem;
+    }
+    
+}
+
+  
+
+  
+
+  
+
+  
+

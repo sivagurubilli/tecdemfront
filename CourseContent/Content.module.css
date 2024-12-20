@@ -1,0 +1,17 @@
+.activeCourseSectionParent h6 {
+    color: #6534e4;
+}
+
+.sectionDropIcons {
+    color : #6534e4;
+}
+
+.videoLength {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.dropSection{
+    margin-left: 5px;
+}
