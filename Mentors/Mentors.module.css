@@ -1,0 +1,240 @@
+.mentorContainer {
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: border 0.3s ease-in-out;
+    /* border-radius: 50%; */
+    align-items: center !important;
+    gap: 5px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.selectedMentorFromList {
+    border: 4px solid green !important;
+    transition: border 0.3s ease-in-out;
+    border-radius: 50%;
+
+}
+
+.chatContainer {
+    background-color: var(--tec-light);
+    /* width: 50%; */
+}
+
+.chatHeader .profileContainer {
+    align-items: center;
+    gap: 10px;
+}
+
+.chatBody {
+    height: 483px;
+    overflow: overlay;
+    padding-right: 4px;
+}
+
+.receivedChat {
+    gap: 10px;
+    background-color: white;
+    width: fit-content;
+}
+
+.messageContainer span {
+    font-size: 14px;
+
+}
+
+.timeOfChat span {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.oppositeChatAvatar {
+    width: 40px;
+    height: 40px;
+}
+
+.sendingChat {
+    flex-direction: row-reverse;
+    background-color: #cec2ff;
+    text-align: right;
+    align-items: flex-start;
+    width: fit-content;
+    margin-left: auto;
+    gap: 10px;
+
+}
+
+.messageTextContainer {}
+
+.selectedUser {
+    background-color: var(--tec-button);
+    color: #ffffff;
+}
+
+.selectedMentor p {
+
+    color: #ffffff;
+}
+
+.chatFooter form {
+    padding: 0;
+    margin: 0;
+}
+
+.discoRoomContainer {
+    display: flex;
+}
+
+.leftContainer {
+    flex: 0 0 30%
+}
+
+.conversationContainer {
+    flex: 0 0 70%
+}
+
+/* .selectUserProfileContainer {
+    flex: 0 0 20%
+} */
+
+.userListContainer {
+    height: 454px;
+    overflow: overlay;
+    padding-right: 4px;
+    width: 100%;
+}
+
+.mentorContainer {
+    transition: all 0.5s ease-in-out;
+}
+
+.mentorContainer:hover {
+    background-color: #cec2ff;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.selectedUserFromList {
+    background-color: #cec2ff!important;
+}
+
+.wrap1,
+.wrap2,
+.wrap3,
+.wrap4 {}
+
+.wrap1 ul {
+    margin: 0;
+}
+
+.selectedUserHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.selectedUserHeaderText {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.selectedUserEmail {
+    font-size: 12px;
+}
+
+/* .leftContainerWrapper {
+        display: flex;
+        align-items: flex-start;
+        gap:20px;
+} */
+
+.leftContainerRightWrapper {
+    display: flex;
+}
+
+.profileContainer h6 {
+    font-size: 14px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.profileContainer span {
+    /* font-style: italic; */
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.chatAvatar {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.userProfileContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.messageCount {
+    width: 20px;
+    background: var(--tec-button);
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userMessageStatusContainer span {
+    font-size: 12px;
+}
+
+.lastMessageTimeStamp {}
+
+.messageCount {
+    color: var(--tec-white);
+}
+
+.userMessageStatusContainer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.userStatus {
+    width: 10px;
+    height: 10px;
+    background-color: #71dd37;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+
+.evenUser {
+    background-color: var(--tec-light);
+}
+
+.modalContent {
+    position: fixed; 
+    right: 0; 
+    top: 0; 
+    height: 100vh; 
+    width: 900px; 
+    margin: 0; 
+    border-radius: 0;
+  }
+  .RightmodalContainer{
+    padding-block:20px;
+  }
+ 
+  .profileActionContainer {
+    display: flex;
+    align-items: center;
+    gap:10px;
+  }
+  

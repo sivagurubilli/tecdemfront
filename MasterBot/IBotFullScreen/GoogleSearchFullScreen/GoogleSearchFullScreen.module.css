@@ -1,0 +1,29 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.searchResultContainer {
+   height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #a0a0a0 #f1f1f1;
+  }
+
+  .courseListActive {
+    background-color: var(--tec-border);
+
+}
+.googleResults {
+  padding :10px;
+}
+
+.googleResult a {
+  color : blue;
+}
+
+
+.googleResult  {
+  /* background-color: rgba(192, 192, 192, 0.082); */
+}

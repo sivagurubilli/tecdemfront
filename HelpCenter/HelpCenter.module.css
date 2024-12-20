@@ -1,0 +1,45 @@
+
+.gridIcon {
+    font-size: 60px;
+    color : #8c61ed;
+  }
+  
+  .roundCircle {
+    background: #d0edff;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    bottom: -88px;
+    left: 0;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  button.supportButton {
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+    left: 350px;
+  }
+  
+  img.bannerImage {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .featureWidget {
+        display: flex  ;
+        flex-direction: column;
+        align-items: center;
+  }
+
+  .footerHiring {
+    text-align: center;
+  }
+
+  .footerHiring h1 {
+    color: #ffffff
+  }

@@ -1,0 +1,38 @@
+.popover-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.popover-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 5px;
+  width: 90vw; /* Adjust width for smaller screens */
+  max-width: 100%; /* Ensure card doesn't exceed viewport */
+  margin-left: 0; /* Correct the typo here */
+}
+
+@media screen and (min-width: 768px) {
+  .popover-card {
+    width: 70vw; /* Adjust width for medium screens */
+  }
+
+  .popover-content {
+    display: flex;
+    flex-direction: row; /* Ensure components are side-by-side */
+    gap: 20px; /* Add gap between MiddleComponent and RightComponent */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .popover-card {
+    width: 60vw; /* Adjust width for larger screens */
+  }
+}

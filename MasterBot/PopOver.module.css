@@ -1,0 +1,191 @@
+
+
+.subWrapper {
+    background-color: var(--tec-white);
+}
+
+.courseTitleContainer{
+    width: 100%;
+}
+
+.flexComponent {
+    display: flex;
+}
+
+.flexRightPanel {
+    flex: 0 0 50% !important;
+
+}
+
+.flexLeftComponent {
+    flex: 0 0 50%;
+
+}
+
+.dndComponentWrapper {
+    flex: 0 0 70%;
+}
+
+.rightPanelSecond {
+    gap: 5px;
+}
+
+.searchActions {
+    gap: 5px;
+}
+
+.rightPanelVideoViewer {
+    flex: 0 0 30%;
+
+}
+
+.googleSearchWrapper {
+    height: 450px;
+
+
+}
+
+.searchResultContainer {
+    height: 350px;
+    overflow: overlay;
+}
+
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+@media (max-width:1400px){
+    .googleSearchWrapper {
+        height: 350px;
+
+
+    }
+
+    .searchResultContainer {
+        height:250px;
+        overflow: overlay;
+    }
+}
+
+.searchedActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+
+
+
+.searchResultContainer::-webkit-scrollbar {
+    width: 10px;
+    /* background-color: #f1f1f1;  */
+}
+
+.searchResultContainer::-webkit-scrollbar-thumb {
+    /* background-color: rgb(138, 14, 229); */
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+/* .searchResultContainer::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(110, 0, 183);
+} */
+
+
+
+.searchResultContainer {
+    scrollbar-width: thin;
+    /* scrollbar-color: rgb(138, 14, 229) #f1f1f1;  */
+}
+
+
+.searchResultContainer {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+.searchResultContainer {
+    /* scrollbar-color: rgb(138, 14, 229) #f1f1f1;  */
+    scrollbar-width: thin;
+}
+
+.middleButtonActions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.historyActive {
+    background-color: var(--tec-light);
+    /* transition: all 0.001s ease-in-out; */
+}
+
+
+
+.historyItem {
+    transition: all 0.3s ease-in-out;
+}
+
+.historyItem:hover {
+    background-color: var(--tec-light);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.courseListActive {
+    background-color: var(--tec-border);
+
+}
+
+.historyList {
+    height: 380px;
+    overflow: overlay;
+
+}
+
+.courseListContainer .uploaderName {
+    font-size: 12px;
+}
+
+
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding: 5px;
+    height: 433px;
+
+}
+.googleResults {
+    padding :10px;
+}
+
+.googleResult a {
+    color : blue;
+}
+
+
+@media (max-width:440px) {
+    .googleSearchWrapper {
+        padding: 0 0 50px 0px;
+    }
+
+    .searchResultContainer {
+        height: 100%;
+       
+      
+    }
+
+    .searchedActions{
+        display: none;
+    }
+}

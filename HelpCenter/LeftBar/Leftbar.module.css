@@ -1,0 +1,37 @@
+.container {
+    width: 20%; 
+    padding: 20px;
+    padding-left: 70px;
+    border-right: 1px solid #ADADAD;
+  }
+  
+  .title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .topicList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .topicItem {
+    margin-bottom: 10px;
+  }
+  
+  .topicLink {
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6D62E5; 
+  }
+  
+  .topicLink:hover {
+    text-decoration: underline;
+    color: #000;
+  }

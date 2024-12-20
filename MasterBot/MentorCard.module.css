@@ -1,0 +1,57 @@
+
+.MentorCard{
+color: grey;
+height: 140px;
+width: 120px;
+padding: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 1px solid grey;
+position: relative;
+background-color: white;
+margin-bottom: 7px;
+}
+
+
+
+.avatarProfileImage {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.headerMasterBot {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bodyMasterBot {}
+
+.footerMasterBot {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerMasterBot p {}
+
+.mentorName {
+    font-size: 12px;
+    width: 100px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+
+}
+
+.headerMasterBot i {
+    cursor: pointer;
+}
+
+.activeMentor {
+    color: green;
+}
+

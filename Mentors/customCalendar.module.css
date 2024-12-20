@@ -1,0 +1,164 @@
+.container {
+  height: 100vh;
+  padding: 16px;
+  background-color: #f5f5f5; 
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+  padding: 24px;
+  border-radius: 8px; 
+  max-width: 500px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.modalTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.closeModal {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666; 
+}
+
+.modalBody {
+  margin-bottom: 16px;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+}
+
+.input {
+  height: 40px;
+}
+
+.textarea {
+  height: 80px;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.modalActions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.saveButton {
+  background-color: #007bff; 
+  color: white;
+}
+
+.cancelButton {
+  background-color: #6c757d; 
+  color: white;
+}
+
+.detailsModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);   
+padding: 24px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.detailsModalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.detailsModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.detailsModalTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333; 
+}
+
+.detailsCloseModal {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666; 
+}
+
+.detailsModalBody {
+  margin-bottom: 16px;
+}
+
+.detailsModalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.detailsModalActions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.detailsEditButton {
+  background-color: #ffc107; 
+  color: white;
+}
+
+.detailsDeleteButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.detailsEmailButton {
+  background-color: #28a745; 
+  color: white;
+}

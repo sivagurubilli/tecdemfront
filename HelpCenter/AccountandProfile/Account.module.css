@@ -1,0 +1,109 @@
+/* Account.module.css */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.accountContainer {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding-top: 30px;
+}
+
+.Search {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.breadcrumbs {
+  color: black;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.searchBar {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.topicList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topicItem {
+  margin-bottom: 10px;
+  margin-left: -10%;
+}
+
+.topicLink {
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #6D62E5;
+}
+
+.topicLink:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.SearchTerm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Terms {
+  width: 350px;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  top: 170px;
+}
+
+.term {
+  padding: 10px;
+  margin-top: 10px;
+}
+.term:hover {
+  background-color: #ccc;
+  padding-top: 10px;
+}

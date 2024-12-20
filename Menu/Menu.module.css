@@ -1,0 +1,123 @@
+.menuAside {
+    width: 85px;
+    height: 100%;
+    position: fixed;
+    background-color: var(--tec-white);
+    left: 0;
+    z-index: 1076;
+    transition: width 0.2s ease-in-out;
+}
+
+.menuAside:hover {
+    width: 200px;
+    transition: width 0.2s ease-in-out;
+}
+
+.menuAside:hover .menuTitle {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.menuAside:hover .innerTitle2 {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+/* .menuAside:hover .menuItem svg {
+    flex: unset;
+} */
+
+.menu_title {
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    /* display: none; */
+    /* width: 0; */
+}
+
+
+.appLogo {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.appLogo img {
+    /* margin: auto; */
+}
+
+.menuTitle {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menuBody {
+    /* margin: 1    0px; */
+}
+
+.menuItem {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 0px;
+    margin-bottom: 1px;
+    /* background-color: #333; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    transition: all 0.3s ease-in-out;
+
+}
+
+.menuItem:hover {
+    background-color: var(--tec-selected-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.menuItem svg {
+    /* width: 60px; */
+    /* flex: 0 0 100%; */
+    margin-left: 14px;
+}
+
+.menuBody ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* .menuAside:hover .appLogo img {
+    margin: 0px;
+} */
+
+.innerTitle {
+    display: flex;
+    align-items: center;
+}
+
+.innerTitle2 {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 17px;
+
+}
+
+.menu_title {
+    display: flex;
+    align-items: center;
+}
+
+.activeMenu {
+    border-right: 5px solid var(--tec-button);
+    color: var(--tec-button);
+    /* background-color: var(--tec-selected-color); */
+}
+
+/* .activeMenu span.innerTitle svg path {
+    fill: var(--tec-button) !important;
+} */
+
+.disableMenu {
+    opacity : 0.5;
+}
